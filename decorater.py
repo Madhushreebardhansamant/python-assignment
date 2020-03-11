@@ -18,4 +18,4 @@ def file_size_validation(fun):
 def fun():
     file_name = "/home/fission/Desktop/sample.csv"
     return file_name
-fun()
+print(fun())

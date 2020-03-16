@@ -9,10 +9,11 @@
 # 	type(a) is a string
 
 
-class A:
-    def __init__(self, num = ' '):
-        self.num = num
-a = A([1,2,3])
-dtype = type((a.num))
-if dtype == list or str or int:
-    print('type(a) is a' + str(dtype))
+class frc:
+    def __init__(self,a=''):
+        self.a=a
+    def show(self):
+        return self.a
+a = frc([1,2,3]).show()
+
+print(type(a))
